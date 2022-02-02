@@ -1,0 +1,29 @@
+{
+  "name": "@mrcreaper/pssapi",
+  "version": "1.0.2",
+  "description": "A half working nodejs api for Pixel StarShips",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "api"
+  ],
+  "homepage": "https://mrtoucan.dev",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MrCreaper/PssApi.git"
+  },
+  "publishConfig": {
+    "registry":"https://github.com/MrCreaper/PssApi"
+  },
+  "author": "Mr.Creaper",
+  "license": "MIT",
+  "dependencies": {
+    "bent": "^7.3.12",
+    "buffer": "^6.0.3",
+    "fs": "^0.0.1-security",
+    "puppeteer": "^13.1.2",
+    "xml2js": "^0.4.23"
+  }
+}
